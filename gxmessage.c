@@ -360,10 +360,10 @@ cb_key_press (GtkWidget *w, GdkEventKey *event, gpointer data)
 	
 	if (gx.timeout != 0) {
 
-        gx.timeout = 0;
+        gx.timeout += 2;
 
 	//	g_print ("%s\n", "remove timer" );
-		g_source_remove (gx.timeout_id);
+//g_source_remove (gx.timeout_id);
 
 
 	}
@@ -407,10 +407,20 @@ cb_timeout (gint *timeout)
 	gchar bu_default1[] = "ofer1:0";
 	static gint counter = 0;
 
+  //printf (" %d | %d \n", counter , *timeout );
+
 	if (++counter >= *timeout) {
 		gx.exit_code = 0;
 		gtk_main_quit ();
 	}
+    else{
+    /*
+     *stdout( "%d" , counter );
+     */
+
+
+    }
+  //  
   //  else {
     
 //	button->label = counter;
