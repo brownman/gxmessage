@@ -1,4 +1,6 @@
 gxmessage
 =========
-
-added features: options: -entry and -timeout now live happily together
+patch:
+--
+- when using -entry / -entrytext - timeout is enabled
+- every key press - extend the timeout
