@@ -1,0 +1,237 @@
+This package was debianized by Søren Boll Overgaard <boll@debian.org> on
+Sun, 16 Jun 2002 01:06:25 +0200.
+
+It was downloaded from
+http://homepages.ihug.co.nz/~trmusson/programs.html
+http://savannah.gnu.org/projects/gxmessage/
+http://ftp.gnu.org/gnu/gxmessage/
+
+Upstream authors, as listed in the file AUTHORS:
+
+    | 
+    | Gxmessage maintainer:
+    | 
+    |     Tim Musson <trmusson@gmail.com>
+    | 
+    | 
+    | Significant patches:
+    | 
+    |     Tom <tpgww AT onepost net>
+    |         Implemented support for GTK_STOCK buttons
+    | 
+    | 
+    | Smaller patches:
+    | 
+    |     Moritz Barsnick <barsnick AT gmx net>
+    |         Patches implementing -noescape, -ontop, and -sticky.
+    |         (Savannah bugs #34716, #34717, and #34718)
+    | 
+    | 
+    | Translators:
+    | 
+    |     German
+    |         Manfred Mueller <mmueller AT live-modules org>
+    | 
+    |     Slovak
+    |         Jan Matis <matis AT bgs sk>
+    | 
+    |     Swedish
+    |         Daniel Nylander <po AT danielnylander se>
+    | 
+    | 
+    | Helpful suggestions and advice:
+    | 
+    |     Dmitry Petukhov
+    |     Han Boetes
+    |     Kerl Berry
+    |     Miek Gieben
+    | 
+    | 
+    | -----
+    | 
+    |     Copyright (C) 2009 Timothy Richard Musson
+    | 
+    |     Copying and distribution of this file, with or without modification,
+    |     are permitted provided the copyright notice and this notice are
+    |     preserved.
+    | 
+
+Copyright and license, found in gxmessage.c :
+
+    | Copyright (C) 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009,
+    | 2012 Timothy Richard Musson
+    | 
+    | Email: Tim Musson <trmusson@gmail.com>
+    | WWW:   http://homepages.ihug.co.nz/~trmusson/programs.html#gxmessage
+    | 
+    | This program is free software: you can redistribute it and/or modify
+    | it under the terms of the GNU General Public License as published by
+    | the Free Software Foundation, either version 3 of the License, or
+    | (at your option) any later version.
+    | 
+    | This program is distributed in the hope that it will be useful,
+    | but WITHOUT ANY WARRANTY; without even the implied warranty of
+    | MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    | GNU General Public License for more details.
+    | 
+    | You should have received a copy of the GNU General Public License
+    | along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+On Debian systems, the complete text of the GNU General Public License
+version 3 can be found in `/usr/share/common-licenses/GPL-3'.
+
+The Debian packaging is
+Copyright (C) 2002-2006, Søren Boll Overgaard <boll@debian.org>
+Copyright (C) 2007-2012, Bart Martens <bartm@knars.be>
+and is licensed under the GPL version 3, see above.
+
+The files AUTHORS, HACKING, NEWS and TODO have this copyright and license:
+
+    | Copyright (C) 2009 Timothy Richard Musson
+    | 
+    | Copying and distribution of this file, with or without modification,
+    | are permitted provided the copyright notice and this notice are
+    | preserved.
+
+The files README has this copyright and license:
+
+    | Copyright (C) 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009
+    | Timothy Richard Musson
+    | 
+    | Copying and distribution of this file, with or without modification,
+    | are permitted provided the copyright notice and this notice are
+    | preserved.
+
+The file ChangeLog has this copyright and license:
+
+    | Copyright (C) 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2012
+    | Timothy Richard Musson
+    | 
+    | Copying and distribution of this file, with or without modification,
+    | are permitted provided the copyright notice and this notice are
+    | preserved.
+
+The file doc/gxmessage.1 has this copyright and license:
+
+    | Copyright (C) 2003, 2004, 2005,  2006,  2007,  2008,  2009,  2012  Timothy
+    | Richard Musson
+    | 
+    | Copying and distribution of this file, with or without modification, are
+    | permitted provided the copyright notice and this notice are preserved.
+
+The file configure.in has this copyright and license:
+
+    | Copyright (C) 2009, 2012 Timothy Richard Musson
+    | 
+    | This program is free software; you can redistribute it and/or modify
+    | it under the terms of the GNU General Public License as published by
+    | the Free Software Foundation; either version 2, or (at your option)
+    | any later version.
+    | 
+    | This program is distributed in the hope that it will be useful,
+    | but WITHOUT ANY WARRANTY; without even the implied warranty of
+    | MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    | GNU General Public License for more details.
+    | 
+    | You should have received a copy of the GNU General Public License
+    | along with this program; if not, write to the Free Software
+    | Foundation, Inc.
+
+    The address of the Free Software Foundation is:
+    Free Software Foundation, Inc., 51 Franklin St, Fifth Floor, Boston,
+    MA 02110-1301, USA.
+
+The files
+    doc/gxmessage.info
+    doc/gxmessage.texi
+have this copyright and license:
+
+    | Copyright (C) 2009 Timothy Richard Musson
+    | 
+    | Permission is granted to copy, distribute and/or modify this
+    | document under the terms of the GNU Free Documentation License,
+    | Version 1.3 or any later version published by the Free Software
+    | Foundation; with no Invariant Sections, no Front-Cover Texts,
+    | and no Back-Cover Texts. A copy of the license is included in
+    | the section entitled "GNU Free Documentation License".
+
+The files
+    examples/gxaddress
+    examples/gxdialup
+    examples/nautilus-word-count
+    examples/gxman
+    examples/gxview
+    examples/gxdict
+have this copyright and license:
+
+    | I, the Copyright holder of this work, hereby release it into the Public
+    | Domain. This applies worldwide. In case this is not legally possible, I
+    | grant anyone the right to use this work for any purpose, without any
+    | conditions, unless such conditions are required by law.
+    | 
+    | 2009 Timothy Richard Musson <trmusson@gmail.com>
+
+The file COPYING.icon contains the following:
+
+    | This Public Domain dedication applies only to the following file:
+    | 
+    |   gxmessage.png
+    | 
+    | I, the Copyright holder of this work, hereby release it into the Public
+    | Domain. This applies worldwide. In case this is not legally possible, I
+    | grant anyone the right to use this work for any purpose, without any
+    | conditions, unless such conditions are required by law.
+    | 
+    |   2009 Timothy Richard Musson <trmusson@gmail.com>
+
+The file po/de.po has this copyright and license:
+
+    | Copyright (C) 2009 Manfred Mueller
+    | 
+    | This program is free software: you can redistribute it and/or modify
+    | it under the terms of the GNU General Public License as published by
+    | the Free Software Foundation, either version 3 of the License, or
+    | (at your option) any later version.
+    | 
+    | This program is distributed in the hope that it will be useful,
+    | but WITHOUT ANY WARRANTY; without even the implied warranty of
+    | MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    | GNU General Public License for more details.
+    | 
+    | You should have received a copy of the GNU General Public License
+    | along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+The file po/sk.po has this copyright and license:
+
+    | Copyright (C) 2004 Jan Matis
+    | 
+    | This program is free software: you can redistribute it and/or modify
+    | it under the terms of the GNU General Public License as published by
+    | the Free Software Foundation, either version 3 of the License, or
+    | (at your option) any later version.
+    | 
+    | This program is distributed in the hope that it will be useful,
+    | but WITHOUT ANY WARRANTY; without even the implied warranty of
+    | MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    | GNU General Public License for more details.
+    | 
+    | You should have received a copy of the GNU General Public License
+    | along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+The file po/sv.po has this copyright and license:
+
+    | Copyright (C) 2006 Daniel Nylander
+    | 
+    | This program is free software: you can redistribute it and/or modify
+    | it under the terms of the GNU General Public License as published by
+    | the Free Software Foundation, either version 3 of the License, or
+    | (at your option) any later version.
+    | 
+    | This program is distributed in the hope that it will be useful,
+    | but WITHOUT ANY WARRANTY; without even the implied warranty of
+    | MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    | GNU General Public License for more details.
+    | 
+    | You should have received a copy of the GNU General Public License
+    | along with this program.  If not, see <http://www.gnu.org/licenses/>.
+

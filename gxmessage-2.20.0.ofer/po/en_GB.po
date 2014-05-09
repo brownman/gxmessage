@@ -1,0 +1,222 @@
+# British English translation of gxmessage
+#
+# Copyright (C) 2009, 2012 Timothy Richard Musson
+#
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with this program.  If not, see <http://www.gnu.org/licenses/>.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: 2.20.0\n"
+"Report-Msgid-Bugs-To: trmusson@gmail.com\n"
+"POT-Creation-Date: 2012-02-26 02:26+1300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Timothy Richard Musson <trmusson@gmail.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../gxmessage.c:756
+#, c-format
+msgid ""
+"\n"
+"%s - a GTK-based xmessage clone\n"
+msgstr ""
+
+#: ../gxmessage.c:758
+#, c-format
+msgid "Usage: %s [OPTIONS] message ...\n"
+msgstr ""
+
+#: ../gxmessage.c:759
+#, c-format
+msgid "       %s [OPTIONS] -file FILENAME\n"
+msgstr ""
+
+#: ../gxmessage.c:761
+#, c-format
+msgid "xmessage options:\n"
+msgstr ""
+
+#: ../gxmessage.c:762
+#, c-format
+msgid "  -file FILENAME         Get message text from file, '-' for stdin\n"
+msgstr ""
+
+#: ../gxmessage.c:763
+#, c-format
+msgid "  -buttons BUTTON_LIST   List of \"LABEL:EXIT_CODE\", comma separated\n"
+msgstr ""
+
+#: ../gxmessage.c:764
+#, c-format
+msgid "  -default LABEL         Give keyboard focus to the specified button\n"
+msgstr ""
+
+#: ../gxmessage.c:765
+#, c-format
+msgid "  -print                 Send the selected button's LABEL to stdout\n"
+msgstr ""
+
+#: ../gxmessage.c:766
+#, c-format
+msgid "  -center                Open the window in the center of the screen\n"
+msgstr "  -center                Open the window in the centre of the screen\n"
+
+#: ../gxmessage.c:767
+#, c-format
+msgid "  -nearmouse             Open the window near the mouse pointer\n"
+msgstr ""
+
+#: ../gxmessage.c:768
+#, c-format
+msgid "  -timeout SECONDS       Exit with code 0 after SECONDS seconds\n"
+msgstr ""
+
+#: ../gxmessage.c:769
+#, c-format
+msgid "  -display DISPLAY       X display to use\n"
+msgstr ""
+
+#: ../gxmessage.c:770
+#, c-format
+msgid "  -fn FONT | -font FONT  Set message font (works with GTK font names)\n"
+msgstr ""
+
+#: ../gxmessage.c:771
+#, c-format
+msgid "  -fg COLOR              Set message font color\n"
+msgstr "  -fg COLOR              Set message font colour\n"
+
+#: ../gxmessage.c:772
+#, c-format
+msgid "  -bg COLOR              Set message background color\n"
+msgstr "  -bg COLOR              Set message background colour\n"
+
+#: ../gxmessage.c:773
+#, c-format
+msgid "  -geometry GEOMETRY     Set window size (position will be ignored)\n"
+msgstr ""
+
+#: ../gxmessage.c:774
+#, c-format
+msgid "  -iconic                Start iconified\n"
+msgstr ""
+
+#: ../gxmessage.c:775
+#, c-format
+msgid "  -name NAME             Program name as used by the window manager\n"
+msgstr ""
+
+#: ../gxmessage.c:776
+#, c-format
+msgid "  -title TITLE           Set window title to TITLE\n"
+msgstr ""
+
+#: ../gxmessage.c:778
+#, c-format
+msgid "Additional %s options:\n"
+msgstr ""
+
+#: ../gxmessage.c:779
+#, c-format
+msgid "  -borderless            Open the window without border decoration\n"
+msgstr ""
+
+#: ../gxmessage.c:780
+#, c-format
+msgid "  -sticky                Make the window stick to all desktops\n"
+msgstr ""
+
+#: ../gxmessage.c:781
+#, c-format
+msgid "  -ontop                 Keep window on top\n"
+msgstr ""
+
+#: ../gxmessage.c:782
+#, c-format
+msgid "  -nofocus               Don't focus the window when it opens\n"
+msgstr ""
+
+#: ../gxmessage.c:783
+#, c-format
+msgid "  -noescape              Don't allow pressing ESC to close the window\n"
+msgstr ""
+
+#: ../gxmessage.c:784
+#, c-format
+msgid "  -encoding CHARSET      Expect CHARSET as the message encoding\n"
+msgstr ""
+
+#: ../gxmessage.c:785
+#, c-format
+msgid "  -entry                 Prompt for text to be sent to stdout\n"
+msgstr ""
+
+#: ../gxmessage.c:786
+#, c-format
+msgid ""
+"  -entrytext TEXT        Same as -entry, but with TEXT as default text\n"
+msgstr ""
+
+#: ../gxmessage.c:787
+#, c-format
+msgid "  -wrap                  Wrap lines of text to fit window width\n"
+msgstr ""
+
+#: ../gxmessage.c:788
+#, c-format
+msgid "  -help | -?             Show this usage information\n"
+msgstr ""
+
+#: ../gxmessage.c:789
+#, c-format
+msgid "  -version               Show gxmessage version and Copyright details\n"
+msgstr ""
+
+#: ../gxmessage.c:791
+#, c-format
+msgid "Please report bugs to %s.\n"
+msgstr ""
+
+#: ../gxmessage.c:859 ../gxmessage.c:898
+#, c-format
+msgid "%s: can't have both -entry and -print\n"
+msgstr ""
+
+#: ../gxmessage.c:885 ../gxmessage.c:977
+#, c-format
+msgid "%s: can't get message from both -file and command line\n"
+msgstr ""
+
+#: ../gxmessage.c:906
+#, c-format
+msgid "%s: integer -timeout value expected\n"
+msgstr ""
+
+#: ../gxmessage.c:1002
+#, c-format
+msgid "%s: unable to read file\n"
+msgstr ""
+
+#: ../gxmessage.c:1015
+#, c-format
+msgid "%s: message text is required\n"
+msgstr ""
+
+#: ../gxmessage.c:1016
+#, c-format
+msgid "Try `%s --help' for more information\n"
+msgstr ""

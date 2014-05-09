@@ -1,0 +1,17 @@
+Source: gxmessage
+Section: gnome
+Priority: optional
+Maintainer: Bart Martens <bartm@debian.org>
+Build-Depends: debhelper (>= 8.0.0), autotools-dev, libgtk2.0-dev (>> 2.8.0), libxml-parser-perl, intltool (>= 0.40.0)
+Standards-Version: 3.9.3
+Homepage: http://homepages.ihug.co.nz/~trmusson/programs.html#gxmessage
+Package: gxmessage
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, dpkg (>= 1.15.4) | install-info
+Replaces: gmessage
+Conflicts: gmessage
+Provides: gmessage
+Description: xmessage clone based on GTK+
+ gxmessage provides an easy way to display scriptable pop-up dialogs.
+ Based on the GIMP Toolkit, gxmessage fits in well with desktops such
+ as GNOME, Xfce, and ROX.
